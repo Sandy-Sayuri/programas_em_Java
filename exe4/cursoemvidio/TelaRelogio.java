@@ -1,21 +1,15 @@
-package exe3;
-
-/**
- *
- * @author Sayuri
- */
-public class OlaMundoJava extends javax.swing.JFrame {
-//herança
-    public OlaMundoJava() {
+package cursoemvidio;
+public class TelaRelogio {
+    public TelaRelogio() {
         initComponents();
     }
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
     private void initComponents() {//mudando os nomes dos componentes
-        lblMensagem = new javax.swing.JLabel();//criar mensagem
-        btnClick = new javax.swing.JButton();//criar botao
+        lblMensagem = new javax.swing.JLabel();
+        btnClick = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);//fechar tela
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         lblMensagem.setFont(new java.awt.Font("Tahoma", 0, 24)); // tamanho da fonte
         lblMensagem.setText("aqui vai aparecer a mensagem");//mensagem que vai aparecer
